@@ -1,0 +1,8 @@
+conda:
+  build: docker-images/conda/
+  ports:
+    - 7788:32888
+  volumes:
+    - .:/data
+
+
